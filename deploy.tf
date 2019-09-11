@@ -9,7 +9,7 @@ default = 2
 #}
 resource "openstack_compute_instance_v2" "web" {
 count = "${var.county}"
-name = "${format("web-%02d", count.index+1)}"
+name = "${format("webkhar-%02d", count.index+1)}"
 image_name = "CentOs 7.6 (XaaS) D5"
 availability_zone = "nova"
 region = "${var.region}"
