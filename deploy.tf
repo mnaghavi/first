@@ -19,7 +19,7 @@ security_groups = ["default"]
 network {
 name = "${var.tenant_network}"  
 }
-user_data = "${file("bootstrapweb.sh")}" 
+#user_data = "${file("bootstrapweb.sh")}" 
 }
 resource "openstack_networking_floatingip_v2" "myip1" {
   pool = "provider"
