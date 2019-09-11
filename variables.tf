@@ -8,7 +8,7 @@ default  = "naghavi"
 } 
 variable "openstack_password" {
 description = "The password for the Tenant."
-default  = "123456_a" 
+default  = "1" 
 } 
 variable "openstack_auth_url" {
 description = "The endpoint url to connect to OpenStack."
