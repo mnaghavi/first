@@ -14,7 +14,7 @@ image_name = "CentOs 7.6 (XaaS) D5"
 availability_zone = "nova"
 region = "${var.region}"
 flavor_id = "c2"
-#key_pair = "${var.openstack_keypair}"
+key_pair = "${var.openstack_keypair}"
 security_groups = ["default"]
 network {
 name = "${var.tenant_network}"  
